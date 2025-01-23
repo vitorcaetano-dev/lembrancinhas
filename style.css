@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0px;
+    height: 100dvh;
+    width: 96vw;
+}
+
+header {
+    text-align: center;
+    height: 400px;
+    box-shadow:  3px 10px 10px rgba(0, 0, 0, 0.284);
+}
+
+
+
+.chat {
+    background-color: #1c1529;
+    height: 230px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: none;
+    padding: 24px;
+    overflow-y: scroll;
+    flex-grow: 0;
+}
+    
+.chat > div {
+    
+    align-self: flex-start;
+    margin: 3px;
+    color: white;
+    padding: 7px;
+    border-radius: 0px 9px 9px 9px;
+    background-color: #545454;
+    max-width: 50%;
+}
