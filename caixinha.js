@@ -19,7 +19,7 @@ setInterval(function() {
    chat = document.getElementById("chat")
 
    if (Notification.permission === "granted") {
-      if (segundos == 39) {
+      if (segundos == 50 && minutos ==59) {
          new Notification ("completamos mais uma hora")
    }
    } else {

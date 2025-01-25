@@ -7,7 +7,9 @@ body, html {
 
 header {
     text-align: center;
-    height: 400px;
+    width:97%;
+    margin: auto;
+    padding: 10px;
     box-shadow:  3px 10px 10px rgba(0, 0, 0, 0.284);
 }
 
@@ -16,7 +18,7 @@ header {
 .chat {
     background-color: #1c1529;
     height: 230px;
-    width: 400px;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-flow: column nowrap;
